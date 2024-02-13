@@ -1,0 +1,32 @@
+ACtivity 1: Identify the different tags used in cozycup-boilerplate at this link: https://github.com/CC6-Pancake/cozycup-cafe-boilerplate
+
+html
+head
+meta
+link
+title
+body
+header
+nav
+div
+img
+ul
+li
+section
+h1
+h2
+p
+a
+footer
+
+Activity 2: What are the different internal links that are used in cozycup-boilerplate?
+
+css/styles.css
+img/logo.png
+#menu
+#home
+#about
+#contact
+
+
+Activity 3: 
