@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Table</title>
+<style>
+  h2{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #000;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: black;
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tr:hover {
+    background-color: #ddd;
+  }
+  td:first-child {
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+<h2>Product Table</h2>
+
+<table>
+  <tr>
+    <th>Product Name</th>
+    <th>Price</th>
+    <th>Availability</th>
+  </tr>
+  <tr>
+    <td>Croissant</td>
+    <td>$19.99</td>
+    <td>Available</td>
+  </tr>
+  <tr>
+    <td>Ham and Cheese</td>
+    <td>$29.99</td>
+    <td>Unavailable</td>
+  </tr>
+  <tr>
+    <td>Latte</td>
+    <td>$14.99</td>
+    <td>Available</td>
+  </tr>
+  <tr>
+    <td>Capuccino</td>
+    <td>$24.99</td>
+    <td>Available</td>
+  </tr>
+  <tr>
+    <td>Grilled Chicken</td>
+    <td>$39.99</td>
+    <td>Unavailable</td>
+  </tr>
+</table>
+
+</body>
+</html>
